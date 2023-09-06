@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="styles.css">
+  <title>Frontend Mentor | Todo app</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<header class="header">
+  <img src="images/bg-desktop-light.jpg" alt="" id="bgimage">
+</header>
+<div class="container">
+  <div class="top-part">
+   <div class="title">
+    <h1>TODO</h1>
+   </div>
+   <div class="icon">
+    <img src="images/icon-moon.svg" alt="" id="image">
+   </div>
+  </div>
+  <div class="new-todo">
+    <div class="check">
+      <div class="check-mark">
+      </div>
+    </div>
+    <div class="new-todo-form">
+     <form>
+      <input type="text" placeholder="Currently Typing" id="input-form">
+     </form>
+    </div>
+  </div>
+  <div class="todo-items-container">
+    <div class="todo-items">
+
+      <div class="todo-item no-object" id="submitted">
+
+        <p>There is no task jet, type above to create a new one!</p>
+
+
+
+      </div>
+    </div>
+    <div class="items-info">
+      <div class="left">
+      </div>
+      <div class="status">
+        <span class="bottom-button">All</span>
+        <span class="bottom-button-active">Active</span>
+        <span class="bottom-button-completed">Completed</span>
+      </div>
+      <div class="clear">
+        <span>Clear All</span>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
